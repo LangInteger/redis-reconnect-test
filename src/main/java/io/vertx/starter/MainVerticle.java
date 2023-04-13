@@ -18,7 +18,7 @@ public class MainVerticle extends AbstractVerticle {
   private final RedisOptions options = new RedisOptions(
     JsonObject.of(
       "connectionString",
-      "redis://10.165.36.34:6379",
+      "redis://127.0.0.1:6379",
       "maxPoolWaiting", 1000));
   private RedisConnection client;
   private final AtomicBoolean CONNECTING = new AtomicBoolean();
