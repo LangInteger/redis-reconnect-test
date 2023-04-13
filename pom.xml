@@ -10,7 +10,7 @@
   <version>1.0-SNAPSHOT</version>
 
   <properties>
-    <vertx.version>4.0.0</vertx.version>
+    <vertx.version>4.4.0</vertx.version>
     <main.verticle>io.vertx.starter.MainVerticle</main.verticle>
   </properties>
 
@@ -30,6 +30,10 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-redis-client</artifactId>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
